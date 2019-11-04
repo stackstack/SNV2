@@ -1,22 +1,21 @@
-.App {
-  text-align: center;
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+  "h h h"
+  "m m m"
+  "f f f";
+  grid-template-rows: 60px 1fr 60px;
+  grid-auto-columns: 1fr 1fr;
 }
 
-.App-logo {
-  height: 40vmin;
+header {
+  grid-area: h;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+main {
+  grid-area: m;
 }
 
-.App-link {
-  color: #09d3ac;
+footer {
+  grid-area: f;
 }
