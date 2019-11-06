@@ -1,8 +1,24 @@
 header {
     grid-area: h;
+    height: 30px;
     background: orange;
+    padding: 10px 40px 10px 10px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .item {
     display: inline-block;
+    margin-left: 15px;
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+
+}
+
+.item:hover {
+    color: orange;
+    background: white;
+    cursor: pointer;
 }

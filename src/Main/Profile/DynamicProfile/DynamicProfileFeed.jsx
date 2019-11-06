@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './DynamicProfile.module.css'
 
-const DynamicProfile = props => {
+const DynamicProfileFeed = props => {
     return (
         <div className={classes.dynamicProfileView}>
             <div>There are buttons</div>
@@ -21,4 +21,4 @@ const DynamicProfile = props => {
     )
 }
 
-export default DynamicProfile
+export default DynamicProfileFeed
