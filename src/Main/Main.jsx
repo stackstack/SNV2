@@ -1,9 +1,11 @@
 import React from 'react'
+import classes from './Main.module.css'
+import Profile from "./Profile/Profile";
 
 const Main = props => {
     return (
         <main>
-            This is Main section
+            <Profile />
         </main>
     )
 }
